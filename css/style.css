@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #ddd;
+  position: relative;
+}
+
+nav {
+  background-color: #333;
+  width: 100%;
+  top: 0;
+}
+
+.clearfix:after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+}
+
+.hero {
+  background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+   padding-top: 50vh;
+}
+
+h1 {
+   margin: 0;
+   font-family: 'Open Sans';
+   text-align: center;
+   font-weight: bold;
+   padding: 25px;
+   text-transform: uppercase;
+}
+
+h3 {
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Open Sans';
+   margin-bottom: 5px;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+section {
+   background: #ddd;
+}
+
+.row {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.column {
+   float:left;
+   width: 33.333%;
+}
+
+.food img {
+   width: 100%;
+}
+
+.column-inner {
+   padding: 20px;
+}
